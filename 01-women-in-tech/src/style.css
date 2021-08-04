@@ -1,50 +1,116 @@
-.titles {
-    color: #000;
-    font-size: 24px;
-    line-height: 30px;
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
-    margin: 0 auto;
-    margin-bottom: 35px;
-  }
+.menu li{
+  display: inline-block;
+}  
+body{
+  margin: 0;
+  
+}
+nav{
+  background: #ADA207;
+}
+.menu{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
 
-  .titles_center {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
+.menu a{
+  padding: 50px;
+  color: black;
+  text-decoration: none;
+  display: block;
   
-  background-image: url(01-women-in-tech/src/assets/images/cover.png)
   
-  body {
-    margin: 0;
-    padding: 0;
-  }
-   
-  .header {
-    background: url(../images/cover.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-  }
+}
+.menu a:hover{
+  background: #DDDDDD;
   
-  .section_1 {
-    background-color: #fff;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-   
-  .section_2 {
-    background-color: #f6f7d4;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 30px;
-    padding-bottom: 0px;
-  }
+}
+.imagen{
+  background: url(../src/cover.jpg);
+  background-size: contain;
+  height: 700px;
+  width: 1400px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  vertical-align: end;
+
+}
+
+.fecha{
+  text-align: justify;
+  color: white;
+  background-color: #ADA207;
+  text-overflow: initial;
+  overflow: hidden;
+}
+h4{
+  text-align: right;
   
+}
+h5{
+  text-align: left;
+  
+}
+
+.columna{
+  background: white;
+  overflow: hidden;
+  width: 1024px;
+  margin: auto;
+  
+  
+}
+.columna h3{
+  color: #D94867;
+  text-align: center;
+
+}
+.columnas3{
+  background: #F6F7D4;
+  text-align: justify;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: initial;
+  width: 1350px;
+  margin: auto;
+}
+
+h2{
+text-align: center;
+
+}
+.titulo{
+  display: inline-block;
+ 
+}
+.p{
+  width: 430px;
+}
+.columnas3 .titulo{
+  width: 430px;
+}
+.footer{
+  padding: 10px;
+  background-color: #BE4521;
+  text-align: center;
+  color:white;
+}
+.more {
+  display: inline-block;
+  padding: 5px;
+  background-color: #BE4521;
+  text-decoration: none;
+  color: white;
+  width: 70px;
+  height: 50px;
+  text-overflow: initial;
+}
+.abajo .a{
+ background:url(../src/assets/images/ico-arrow.svg);
+}
