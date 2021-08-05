@@ -1,0 +1,82 @@
+.body{
+    margin:0;
+    padding: 0;
+    }
+    
+.menu li {
+    display: inline-block;
+    width: 1250px;
+    height: 19px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    vertical-align: end;
+}
+.a{
+display: inline-block;
+}  
+
+
+.menu a{
+    display: inline-block;
+    color:  #676A6D;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.menu a:hover{
+   background: #8DECE5; 
+   text-decoration-line: underline;
+}
+
+
+.logo {
+    background: url(../src/assets/images/logo.png);
+    width: 181px;
+    height: 109px;
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+    vertical-align: end;
+}
+
+.imagen {
+    background: url(../src/assets/images/hero-image.jpeg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 9px;
+    width: 1320px;
+    height: 600px;
+    margin: 0;
+    background-size: cover;
+    vertical-align: center;    
+}
+
+h1{
+    text-align: left;
+    color: white;
+    vertical-align: center;
+    font-family: sans-serif;
+    font-size: 120px;
+    background: 5px;
+    line-height: 50px;   
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #252525;
+    color: #676A5F;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 1300px;
+}
+
+    
